@@ -12,7 +12,7 @@ HTML_PAGE = r"""
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GROUNDTRUTH</title>
+    <title>Bryfd</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
@@ -138,7 +138,7 @@ function App(){
             {/* ─── Header ─── */}
             <div style={{background:"#1a1a2e",padding:"12px 24px",display:"flex",alignItems:"center",justifyContent:"space-between"}}>
                 <div style={{display:"flex",alignItems:"center",gap:"12px"}}>
-                    <span style={{fontFamily:"'JetBrains Mono'",fontWeight:800,fontSize:"15px",color:"#fff",letterSpacing:"-.02em"}}>GROUNDTRUTH</span>
+                    <span style={{fontFamily:"'JetBrains Mono'",fontWeight:800,fontSize:"15px",color:"#fff",letterSpacing:"-.02em"}}>Bryfd</span>
                     <span style={{width:"1px",height:"16px",background:"#3a3a5e",display:"inline-block"}}/>
                 </div>
                 <div style={{display:"flex",gap:"14px",fontSize:"10px",fontWeight:600,letterSpacing:".04em",textTransform:"uppercase"}}>
@@ -489,7 +489,7 @@ function App(){
 
                         {/* ─── Footer ─── */}
                         <div style={{marginTop:"12px",padding:"12px 16px",background:"#fff",border:"1px solid #e8e8ed",borderRadius:"6px",fontSize:"10px",color:"#b0b0bc",lineHeight:1.6,fontFamily:"'JetBrains Mono'"}}>
-                            <strong style={{color:"#9ca3af"}}>GROUNDTRUTH</strong> &mdash; All data from verified public government records.
+                            <strong style={{color:"#9ca3af"}}>Bryfd</strong> &mdash; All data from verified public government records.
                             Case law: CourtListener / Free Law Project. DOJ: justice.gov Special Litigation Section.
                             Statistics: Bureau of Justice Statistics. PREA: DOJ PREA audits. State data: DOC monthly fact sheets &amp; annual reports.
                             No AI-generated analysis. Every claim linked to its primary source.
@@ -566,7 +566,7 @@ def health():
 
 
 if __name__ == "__main__":
-    print("\n  GROUNDTRUTH is running!")
+    print("\n  Bryfd is running!")
     print("  Open in browser: http://localhost:8000")
     print("  Health check:    http://localhost:8000/api/health\n")
     app.run(debug=True, port=8000)
