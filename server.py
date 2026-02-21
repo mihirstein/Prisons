@@ -511,7 +511,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 
 @app.route("/")
 def index():
-    return HTML_PAGE, 200, {'Content-Type': 'text/html'}
+    return HTML_PAGE, 200, {'Content-Type': 'text/html', 'X-Frame-Options': 'ALLOWALL'}
 
 
 @app.route("/api/facilities/search")
